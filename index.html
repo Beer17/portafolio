@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Beer - Desarrollador Full Stack</title>
+    <meta name="description" content="Portafolio profesional de desarrollador - Proyectos, habilidades y contacto">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#inicio">&lt;Dev/&gt;</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#habilidades" class="nav-link">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#proyectos" class="nav-link">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting">Hola, soy</span>
+                    <h1 class="hero-name">Miguel Beer</h1>
+                    <h2 class="hero-title">Desarrollador Full Stack</h2>
+                    <p class="hero-description">
+                        Apasionado por crear soluciones web modernas, funcionales y con gran experiencia de usuario.
+                        Transformo ideas en código limpio y eficiente | Scout desde los 5 años
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            Ver Proyectos
+                        </a>
+                        <a href="https://wa.me/5219213114056" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contactar
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/Beer17" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/miguel-beer-ba4b01308/" target="_blank"
+                            rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="creativemarkventas@gmail.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <!-- ESPACIO PARA FOTO DE PERFIL -->
+                        <img src="img/miguelbeer.jpg" alt="Foto de perfil" class="profile-photo"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="profile-placeholder" style="display: none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#sobre-mi">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;sobre-mi&gt;</span>
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador web, software engineer y Tech Lead apasionado por la creación de
+                        aplicaciones web y móviles escalables. Me especializo en escribir código limpio y optimizado,
+                        impulsando proyectos digitales, centrado en desarrollo
+                        web, sistemas y marketing digital. Disfruto afrontando retos técnicos complejos y manteniéndome
+                        al día con las últimas tecnologías.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cancun, Mexico </span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Estudiante de Ing en sistemas </span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Desarrollador Web, Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Proyectos Completados</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Años de Experiencia</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Tecnologías Dominadas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;habilidades&gt;</span>
+                <h2 class="section-title">Habilidades & Tecnologías</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Tecnologías y herramientas que utilizo en mis proyectos</p>
+            </div>
+
+            <!-- Lenguajes de Programación -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-code"></i>
+                    Lenguajes de Programación
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span class="skill-name">TypeScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-hashtag"></i>
+                        </div>
+                        <span class="skill-name">PHP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frontend -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-palette"></i>
+                    Frontend
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-vuejs"></i>
+                        </div>
+                        <span class="skill-name">Vue.js</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-circle-arrow-right"></i>
+                        </div>
+                        <span class="skill-name">Next.js</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <span class="skill-name">Flutter</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <span class="skill-name">TailwindCSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend & Base de Datos -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-server"></i>
+                    Backend & Base de Datos
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <span class="skill-name">Node.js</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <span class="skill-name">Laravel</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <span class="skill-name">Supabase</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <span class="skill-name">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Herramientas & Otros -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-tools"></i>
+                    Herramientas & Otros
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <span class="skill-name">Docker</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <span class="skill-name">Linux</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <span class="skill-name">Figma</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <span class="skill-name">Make</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;proyectos&gt;</span>
+                <h2 class="section-title">Mis Proyectos</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Algunos de mis trabajos más destacados</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <!-- ESPACIO PARA FOTO DEL PROYECTO -->
+                        <img src="img/app_logo.png" alt="Proyecto 1"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Captura del Proyecto</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://scoutwiki.vercel.app" target="_blank" rel="noopener noreferrer"
+                                    class="project-link" aria-label="Ver demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Beer17/appscout" target="_blank" rel="noopener noreferrer"
+                                    class="project-link" aria-label="Ver código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Scout Wiki</h3>
+                        <p class="project-description">
+                            Scout Wiki es una aplicación móvil y plataforma web orientada al ámbito scout y diseñada con
+                            un enfoque offline-first
+                            (para poder ser utilizada en acampadas o zonas de campo sin cobertura a internet).
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/proyecto2.png" alt="Proyecto 2"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Captura del Proyecto</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://journeytothewest.com.mx" target="_blank" rel="noopener noreferrer"
+                                    class="project-link" aria-label="Ver demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">journey to the west</h3>
+                        <p class="project-description">
+                            Viajes al Oeste (Journey to the West - journeytothewest.com.mx) es una agencia y plataforma
+                            de turismo enfocada en ofrecer tours y excursiones guiadas desde la Ciudad de México hacia
+                            los destinos más emblemáticos e históricos de la región central del país.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Wordpress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Html </span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;contacto&gt;</span>
+                <h2 class="section-title">¿Trabajamos juntos?</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Estoy disponible para proyectos freelance o oportunidades laborales</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ponte en contacto</h3>
+                    <p>Tienes una idea o proyecto en mente? Me gustaría escuchar sobre él.
+                        Completa el formulario o envíame un mensaje directo.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-method-info">
+                                <span class="contact-method-label">Email</span>
+                                <a href="mailto:tuemail@ejemplo.com">[tuemail@ejemplo.com]</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-method-info">
+                                <span class="contact-method-label">WhatsApp</span>
+                                <a href="https://wa.me/tunumerodetelefono" target="_blank">[+XX XXX XXX XXX]</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-method-info">
+                                <span class="contact-method-label">LinkedIn</span>
+                                <a href="#" target="_blank">[Tu perfil de LinkedIn]</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="Asunto del mensaje" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i>
+                        Enviar Mensaje
+                    </button>
+                    <p class="form-note">* Los mensajes se enviarán desde el frontend con JavaScript</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">&lt;Dev/&gt;</div>
+                    <p class="footer-description">
+                        Desarrollador Full Stack creando soluciones web modernas
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:tuemail@ejemplo.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegación</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" id="footerDownloadCV">Descargar CV</a></li>
+                        <li><a href="#">Blog [Próximamente]</a></li>
+                        <li><a href="#">Certificaciones [Agregar]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 [Tu Nombre]. Todos los derechos reservados.</p>
+                <p>Diseñado y desarrollado con <i class="fas fa-heart"></i> usando HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
